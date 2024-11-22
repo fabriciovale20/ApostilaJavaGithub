@@ -6,11 +6,14 @@ package Capitulo3;
 
 public class ex01 {
     public static void main(String[] args) {
-        int janeiro = 15000;
-        int fevereiro = 23000;
-        int marco = 17000;
+        int janeiro = 15000; // Gosto do mês de Janeiro
+        int fevereiro = 23000; // Gasto do mês de Fevereiro
+        int marco = 17000; // Gasto do mês de Março
 
+        // Soma do gasto dos 3 meses informados acima
         int soma = janeiro + fevereiro + marco;
+
+        // Média de gastos entre os 3 meses
         double media_mensal = soma / 3;
 
         System.out.println("Despesas totais: R$ " + soma);
