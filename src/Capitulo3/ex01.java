@@ -11,10 +11,10 @@ public class ex01 {
         int marco = 17000; // Gasto do mês de Março
 
         // Soma do gasto dos 3 meses informados acima
-        int soma = janeiro + fevereiro + marco;
+        double soma = janeiro + fevereiro + marco;
 
         // Média de gastos entre os 3 meses
-        double media_mensal = soma / 3;
+        double media_mensal = soma /3;
 
         System.out.println("Despesas totais: R$ " + soma);
         System.out.println("Média mensal de gastos: R$ " + media_mensal);
